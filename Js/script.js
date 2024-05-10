@@ -70,3 +70,32 @@ console.log(x);
 console.log(--x);
 
 console.log(x);
+
+// Assignment Operators
+let xz = 3;
+let y = 4;
+xz += y; // xz = xz + y // xz = 3 + 4
+console.log(xz); // output is 7
+console.log(y); // output is 4
+y += xz;
+// y = y + xz
+console.log(y, xz); // 14 , 7
+console.log(y + xz);
+
+// Comparison operators
+// Strict equality ===
+//loose equality ==
+let a = "30";
+let c = 30;
+console.log(a == c); //true
+console.log(a !== c);
+
+console.log(a >= c);
+
+// Operator precedence
+console.log(23 - 50 * 3 ** 3);
+// -1327
+
+console.log((23 - 50) * 3 ** 3);
+-27 * 27;
+
