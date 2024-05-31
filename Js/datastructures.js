@@ -39,6 +39,28 @@ const calcTip = function (bill) {
 };
 const bills = [125, 555, 44];
 const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
-console.log(tips)
-const totals = [bills[0] + tips[0],bills[1] + tips[1], bills[2] + tips[2]];
-console.log(totals)
+console.log(tips);
+const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+console.log(totals);
+
+// BASIC ARRAY METHODS
+// Push : Adds an element or value to the end of an array
+friends.push("Ada");
+console.log(friends);
+// Unshift: Adds a value at the beginning of the array
+
+friends.unshift("john");
+console.log(friends);
+
+// Pop : Removes the last element from an array and returns it
+friends.pop();
+console.log(friends);
+
+// Shift:removes the first value from an array
+friends.shift();
+console.log(friends);
+
+// IndexOf: used to get the index at which a value is located in array
+console.log(friends.indexOf("Valentine"));
+
+console.log(friends.includes("Akachukwu"));
