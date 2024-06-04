@@ -64,3 +64,26 @@ console.log(friends);
 console.log(friends.indexOf("Valentine"));
 
 console.log(friends.includes("Akachukwu"));
+
+// OBJECTS
+// Syntax const nameOfObject = {}
+
+const StudentObject = {
+  firstName: "samuel",
+  lastName: "mbugua",
+  age: 2024 - 1980,
+  job: "Student",
+  friends: friends,
+};
+console.log(StudentObject.age);
+console.log(StudentObject.friends);
+
+console.log(StudentObject["firstName"]);
+
+const nameKey = "Name";
+console.log(StudentObject["firsts" + nameKey]);
+
+console.log(
+  `I am ${StudentObject.firstName} ${StudentObject.lastName}, a ${StudentObject.age} year old ${StudentObject.job} and my best friend is ${StudentObject.friends[6]}`
+);
+~
